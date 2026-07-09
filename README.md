@@ -125,4 +125,5 @@ The following files were saved for deployment:
 best_tata_car_price_model.joblib
 model_columns.joblib
 feature_options.joblib
+```
 Predicted resale price = 4.90 lakh
