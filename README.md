@@ -56,11 +56,73 @@ This means the model is trained to predict the resale price of each car in lakhs
 
 ## Problem Type
 
-This is a regression machine learning problem because the target variable is a continuous numerical value.
+---
 
-The model predicts a price, not a category.
+## Tools and Technologies Used
 
-Example:
+This is a regression machine learning problem because the target variable is a continuous numerical value and the model predicts a price, not a category. This project was completed using the following tools and technologies:
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Joblib
+- Streamlit
+- Jupyter Notebook
+- VS Code
+- Git
+- GitHub
+
+### Why these tools were used
+
+Python was used as the main programming language for data analysis, machine learning, and deployment.
+
+Pandas and NumPy were used for loading, cleaning, and preparing the dataset.
+
+Matplotlib and Seaborn were used for data visualisation during exploratory data analysis.
+
+Scikit-learn was used to build preprocessing pipelines, train regression models, evaluate model performance, and make predictions.
+
+Joblib was used to save the trained model and supporting files for deployment.
+
+Streamlit was used to build an interactive web application where users can enter car details and receive a resale price prediction.
+
+Git and GitHub were used for version control and portfolio presentation.
+
+
+## Model Deployment
+
+After training and comparing the regression models, the best-performing model was saved using Joblib and deployed using Streamlit.
+
+The purpose of deployment is to make the machine learning model usable outside the notebook environment. Instead of only running predictions inside Jupyter Notebook, the Streamlit app allows a user to enter car details and receive a predicted resale price through a simple interface.
+
+The deployed app allows users to enter:
+
+- Brand
+- Model
+- Variant
+- Fuel type
+- Transmission
+- Body type
+- Engine capacity
+- Power
+- Mileage
+- Ex-showroom price
+- Manufacturing year
+- Kilometres driven
+- Owner count
+- Accident history
+
+The app then converts the user input into a Pandas DataFrame and sends it to the saved machine learning pipeline for prediction.
+
+### Deployment Files
+
+The following files were saved for deployment:
 
 ```text
+best_tata_car_price_model.joblib
+model_columns.joblib
+feature_options.joblib
 Predicted resale price = 4.90 lakh
