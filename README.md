@@ -127,3 +127,56 @@ model_columns.joblib
 feature_options.joblib
 ```
 Predicted resale price = 4.90 lakh
+
+
+## Project Screenshots
+
+### Streamlit Applications
+
+#### Homepage
+![Homepage](reports/images/01_streamlit_app_homepage.png)
+
+####  Input Form
+![Input Form](reports/images/02_streamlit_input_form.png)
+
+#### Input Form 2
+![Input Form 2](reports/images/03_streamlit_input_form.png)
+
+#### Input Form 3
+![Input Form 3](reports/images/04_streamlit_input_form.png)
+
+#### Input Form 4
+![Input Form 4](reports/images/05_streamlit_input_form.png)
+
+#### Input Form 5
+![Input Form 5](reports/images/06_streamlit_input_form.png)
+
+#### Input Form 6
+![Input Form 6](reports/images/07_streamlit_input_form.png)
+
+#### Input Form 7
+![Input Form 7](reports/images/08_streamlit_input_form.png)
+
+#### Input Form 8
+![Input Form 8](reports/images/09_streamlit_input_form.png)
+
+#### Prediction Results
+![Prediction Result](reports/images/10_model_comparison_table.png)
+
+![Prediction Result with Ranking score](reports/images/11_model_comparison_table_rankingscore.png)
+
+---
+
+### Model Evaluations
+
+#### Best Model
+![Best Model](reports/images/12_best_model.png)
+
+#### MAE Comparison
+![MAE](reports/images/13_mae_barplot.png)
+
+#### RMSE Comparison
+![RMSE](reports/images/14_rmse_barplot.png)
+
+#### R2 Score Comparison
+![R2](reports/images/15_r2_score_barplot.png)
