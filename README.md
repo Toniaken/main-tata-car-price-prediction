@@ -56,6 +56,28 @@ This means the model is trained to predict the resale price of each car in lakhs
 
 ## Problem Type
 
+This project is a **Supervised Machine Learning Regression** problem.
+
+The objective is to predict the resale price of a Tata car based on its features.
+
+Unlike a classification problem, where the output is a category (such as Yes/No or Spam/Not Spam), this project predicts a continuous numerical value.
+
+The target variable is:
+
+```text
+resale_price_lakh
+```
+
+Since the model predicts a continuous value, regression algorithms were used.
+
+The regression models were evaluated using:
+
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+The model with the best overall performance was selected for deployment in the Streamlit web application.
+
 ---
 
 ## Tools and Technologies Used
@@ -128,6 +150,110 @@ feature_options.joblib
 ```
 Predicted resale price = 4.90 lakh
 
+## Project Architecture
+
+This project follows the full machine learning workflow from data collection to deployment.
+
+The architecture shows how the raw dataset moves through cleaning, EDA, feature engineering, preprocessing, model training, evaluation, best model selection, model saving, and finally deployment using Streamlit.
+
+```text
+Dataset
+   │
+   ▼
+Data Cleaning
+   │
+   ▼
+Exploratory Data Analysis (EDA)
+   │
+   ▼
+Feature Engineering
+   │
+   ▼
+Data Preprocessing
+   │
+   ▼
+Model Training
+   │
+   ▼
+Model Evaluation
+   │
+   ▼
+Best Model Selection
+   │
+   ▼
+Model Serialization (.joblib)
+   │
+   ▼
+Streamlit Web Application
+   │
+   ▼
+Tata Car Resale Price Prediction
+```
+
+This architecture helps explain how the project moves from raw data to a usable machine learning application.
+```
+
+```
+## Results Summary
+
+Several regression models were trained and evaluated to predict Tata car resale prices.
+
+The models were compared using:
+
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+After comparing all models, the best-performing model was selected and saved for deployment.
+
+The final machine learning pipeline was serialized using Joblib and integrated into a Streamlit web application for real-time price prediction.
+```
+
+```
+## Future Improvements
+
+Future enhancements for this project include:
+
+- Deploy the Streamlit application on Streamlit Community Cloud.
+- Add model explainability using SHAP values.
+- Enable users to upload CSV files for batch predictions.
+- Connect the application to a cloud database.
+- Add user authentication.
+- Containerize the application using Docker.
+- Deploy the application on Azure App Service or AWS.
+- Build an automated CI/CD pipeline using GitHub Actions.
+
+```
+
+```
+## Lessons Learned
+
+Throughout this project I gained practical experience in:
+
+- Cleaning real-world datasets.
+- Performing exploratory data analysis.
+- Feature engineering.
+- Building multiple regression models.
+- Evaluating models using MAE, RMSE and R² Score.
+- Saving trained models using Joblib.
+- Building a Streamlit web application.
+- Preparing a complete machine learning portfolio project.
+- Using Git and GitHub for version control.
+
+```
+
+```
+## Key Achievements
+
+- Built an end-to-end machine learning regression project.
+- Compared multiple regression algorithms.
+- Selected the best-performing model using evaluation metrics.
+- Saved the trained model using Joblib.
+- Developed an interactive Streamlit web application.
+- Documented the entire machine learning workflow.
+- Published the complete project on GitHub as a portfolio-ready repository.
+
+```
 
 ## Project Screenshots
 
@@ -180,3 +306,59 @@ Predicted resale price = 4.90 lakh
 
 #### R2 Score Comparison
 ![R2](reports/images/15_r2_score_barplot.png)
+---
+
+---
+## Project Architecture
+
+This project follows the full machine learning workflow from data collection to deployment.
+
+The architecture shows how the raw dataset moves through cleaning, EDA, feature engineering, preprocessing, model training, evaluation, best model selection, model saving, and finally deployment using Streamlit.
+
+```text
+Dataset
+   │
+   ▼
+Data Cleaning
+   │
+   ▼
+Exploratory Data Analysis (EDA)
+   │
+   ▼
+Feature Engineering
+   │
+   ▼
+Data Preprocessing
+   │
+   ▼
+Model Training
+   │
+   ▼
+Model Evaluation
+   │
+   ▼
+Best Model Selection
+   │
+   ▼
+Model Serialization (.joblib)
+   │
+   ▼
+Streamlit Web Application
+   │
+   ▼
+Tata Car Resale Price Prediction
+```
+
+This architecture helps explain how the project moves from raw data to a usable machine learning application.
+```
+
+```
+## Author
+
+**Udochi Tonia Ken**
+
+Machine Learning | Data Science | Python | Streamlit
+
+GitHub:
+https://github.com/Toniaken
+```
