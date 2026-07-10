@@ -306,9 +306,9 @@ Throughout this project I gained practical experience in:
 
 #### R2 Score Comparison
 ![R2](reports/images/15_r2_score_barplot.png)
----
+```
 
----
+```
 ## Project Architecture
 
 This project follows the full machine learning workflow from data collection to deployment.
@@ -361,4 +361,3 @@ Machine Learning | Data Science | Python | Streamlit
 
 GitHub:
 https://github.com/Toniaken
-```
